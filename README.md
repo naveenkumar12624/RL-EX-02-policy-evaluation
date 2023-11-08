@@ -1,4 +1,4 @@
-# POLICY EVALUATION
+# EX-02 - POLICY EVALUATION
 
 ## AIM
  To develop a Python program to evaluate the given policy by maximizing its cumulative reward while dealing with slippery terrain.
@@ -6,36 +6,27 @@
 
 ## PROBLEM STATEMENT
 ♣ we are tasked with creating an RL agent to solve the "Bandit Slippery Walk" problem. 
-
 ♣ The environment consists of Seven states representing discrete positions the agent can occupy.
-
 ♣ The agent must learn to navigate this environment while dealing with the challenge of slippery terrain.
-
 ♣ Slippery terrain introduces stochasticity in the agent's actions, making it difficult to predict the outcomes of its actions accurately.
 
 ### States
-
 The environment has 7 states:
 * Two Terminal States: **G**: The goal state & **H**: A hole state.
 * Five Transition states / Non-terminal States including  **S**: The starting state.
 
 ### Actions
-
 The agent can take two actions:
-
 * R -> Move right.
 * L -> Move left.
 
 ### Transition Probabilities
-
 The transition probabilities for each action are as follows:
-
 * **50%** chance that the agent moves in the intended direction.
 * **33.33%** chance that the agent stays in its current state.
 * **16.66%** chance that the agent moves in the opposite direction.
 
-### Rewards
-
+### Reward
 ♣ The agent receives a reward of +1 for reaching the goal state (G). 
 ♣ The agent receives a reward of 0 for all other states.
 
@@ -89,6 +80,4 @@ else:
 ![Alt text](image-6.png)
 
 ## RESULT:
-
 Thus the Given Policy have been ***Evaluated*** and ***Optimal Policy*** has been Computed using Python Programming.
-
